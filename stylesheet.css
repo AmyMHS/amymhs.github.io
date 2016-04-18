@@ -1,11 +1,11 @@
 div {
 	display: inline-block;
-	margin-left: 5px;
-	height:100px;
-	width:100px;
-	border-radius:100%;
+	margin-left: 50px;
+	height:1000px;
+	width:1000px;
+	border-radius:1000%;
 	border: 2px solid black;
 }
-.friend {border:2px double #008000;}
-.family {border:2px double #0000FF;}
+.friend {border:2px dotted #008000;}
+.family {border:2px dashed #0000FF;}
 .enemy {border: 2px double #FF0000;}
