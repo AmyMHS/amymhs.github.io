@@ -6,6 +6,6 @@ div {
 	border-radius:100%;
 	border: 2px solid black;
 }
-.friend {border:2px dashed #008000;}
-.family {border:2px dashed #0000FF;}
-.enemy {border: 2px dashed #FF0000;}
+.friend {border:2px double #008000;}
+.family {border:2px double #0000FF;}
+.enemy {border: 2px double #FF0000;}
