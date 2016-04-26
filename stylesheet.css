@@ -1,1 +1,7 @@
+iframe {
+  margin: auto;
+}
 
+#center {
+  float: center;
+}
