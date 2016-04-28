@@ -4,3 +4,7 @@
   }
   
 body {text-align:center;}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
