@@ -2,6 +2,10 @@
 	background-color:black;
 } */
 
+script {
+	color:white;
+}
+
 .center {
     margin-left:auto; 
     margin-right:auto;
