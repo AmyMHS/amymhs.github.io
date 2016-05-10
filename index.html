@@ -15,6 +15,13 @@
    "\"Never trust a computer you can't throw out a window.\" - Steve Wozniak"];
    var randIndex = Math.floor((Math.random() * quoteList.length));
    document.write(quoteList[randIndex]);
+   
+   if (localStorage.pagecount) {
+ 	localStorage.pagecount=Number(localStorage.pagecount) +1;
+   } else {
+ 	localStorage.pagecount=1;
+   }
+   document.write("Visits: " + localStorage.pagecount + " time(s).");
   </script>
  
   
@@ -57,6 +64,8 @@
 	            Women, Work, and the Will to Lead</i>, which has sold over a million copies. The book has spent nearly a year on the <i>New York Times</i> Bestseller list.
 		<tr> </tr>
 		    <td><iframe width="420" height="315" src="http://vplayer.nbcsports.com/p/pcPFDC/bayarea/select/media/kTecH2_l090z?parentUrl=http%3A%2F%2Fwww.csnbayarea.com%2Fvideo_content_type%2F2016-all-star-teacher-finalist-wayne-phillipsrel=0&autoplay=1" frameborder="0"  allowfullscreen</iframe></td>
+	   	    <td> Make sure to vote for Wayne Phillips! He's counting on YOUR votes!
+	   	    <a href="http://www.csnbayarea.com/AllStarTeacher"></a></td>
 	    </tbody>
 	</table>
 
