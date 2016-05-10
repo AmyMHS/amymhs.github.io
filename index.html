@@ -16,12 +16,6 @@
    var randIndex = Math.floor((Math.random() * quoteList.length));
    document.write(quoteList[randIndex]);
    
-   if (localStorage.pagecount) {
- 	localStorage.pagecount=Number(localStorage.pagecount) +1;
-   } else {
- 	localStorage.pagecount=1;
-   }
-   document.write("Visits: " + localStorage.pagecount + " time(s).");
   </script>
  
   
@@ -68,6 +62,14 @@
 	   	    <a href="http://www.csnbayarea.com/AllStarTeacher"></a></td>
 	    </tbody>
 	</table>
+	
+	<script language="Javascript">
+	if (localStorage.pagecount) {
+ 		localStorage.pagecount = Number(localStorage.pagecount) + 1;
+   	} else {
+ 		localStorage.pagecount = 1;
+   	}
+	</script>
 
  </body>
 </html>
